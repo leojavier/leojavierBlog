@@ -17,10 +17,10 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                host: process.env.ec2-54-197-224-155.compute-1.amazonaws.com,
-                user: process.env.yhgelrewjabhea,
-                password: process.env.Q4jXoxJBPv3uRaE77J4b9fP2je,
-                database: process.env.dbihgoamfu7bo6,
+                host: process.env.POSTGRES_HOST,
+                user: process.env.POSTGRES_USER,
+                password: process.env.POSTGRES_PASSWORD,
+                database: process.env.POSTGRES_DATABASE,
                 port: '5432'
             },
             debug: false
