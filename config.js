@@ -15,7 +15,7 @@ config = {
         fileStorage: false,
         mail: {},
         database: {
-            client: 'sqlite3',
+            client: 'postgres',
             connection: {
                 host: process.env.POSTGRES_HOST,
                 user: process.env.POSTGRES_USER,
