@@ -12,7 +12,7 @@ config = {
     // Configure your URL and mail settings here
     production: {
 
-        url: 'http://leojavier-blog.herokuapp.com',
+        url: 'http://leojavier-blog.herokuapp.com/',
         fileStorage: false,
         mail: {},
         database: {
