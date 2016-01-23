@@ -1,1 +1,1 @@
-npm start --production
+web: NODE_ENV=production node index.js
