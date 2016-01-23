@@ -19,7 +19,7 @@ config = {
             client: 'postgres',
             connection: {
               host: 'ec2-54-197-224-155.compute-1.amazonaws.com',
-              user: 'yhgelrewjabhea ',
+              user: 'yhgelrewjabhea',
               password: 'Q4jXoxJBPv3uRaE77J4b9fP2je',
               database: 'dbihgoamfu7bo6',
               port: '5432'
