@@ -1,6 +1,6 @@
 // # Ghost Configuration
 // Setup your Ghost install for various [environments](http://support.ghost.org/config/#about-environments).
-
+//
 
 var path = require('path'),
     config;
